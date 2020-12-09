@@ -1,12 +1,20 @@
+/*Set margin and padding for all elements to 0, use border box sizing */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
+/*Set background color for entire page */
+
 body {
     background-color: #d9dcd6;
 }
+
+
+/*Set background color to bluish, padding of 20 pixels on all sides, and font to Trebuchet for header */
 
 header {
     padding: 20px;
@@ -15,14 +23,23 @@ header {
     color: #ffffff;
 }
 
+
+/*Set font size to 48px for main company name */
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+
+/*Change color for seo part of company name */
+
 header h1 .seo {
     color: #d9dcd6;
 }
+
+
+/*Change font and size for navigation bar, float it to the right, and change margin and padding */
 
 header nav {
     padding-top: 15px;
@@ -32,23 +49,38 @@ header nav {
     font-size: 20px;
 }
 
+
+/*Remove list formatting for navigation bar*/
+
 header nav ul {
     list-style-type: none;
 }
+
+
+/*Add margins for navigation links, displays them inside */
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+
+/*Change link color to White */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+
+/*Sets font size for paragraphs in the page */
+
 p {
     font-size: 16px;
 }
+
+
+/*Creates area for main page image and loads in to the background */
 
 .hero {
     height: 800px;
@@ -59,21 +91,33 @@ p {
     background-position: center;
 }
 
+
+/*Sets main section to 70% to leave room for sidebar, adds left margin */
+
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+
+/*Creates a class for floating elements to the left */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+
+/*Creates a class for floating elements to the right */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
+
+/*Adds margin and padding for the main sections of the site, changes the font, changes the background and font color */
 
 #search-engine-optimization,
 #online-reputation-management,
@@ -86,11 +130,17 @@ main {
     color: #ffffff;
 }
 
+
+/*Sets max heights for the main sections */
+
 #search-engine-optimization img,
 #online-reputation-management img,
 #social-media-marketing img {
     max-height: 200px;
 }
+
+
+/*Sets font size and bottom margins for the main sections */
 
 #search-engine-optimization h2,
 #online-reputation-management h2,
@@ -98,6 +148,9 @@ main {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
+/*Set margin and padding for the sidebar area, clears previous floats and floats the bar to the left, sets the width to 20% to fit on the side of the main content, changes font and background color */
 
 aside {
     margin-right: 20px;
@@ -110,6 +163,9 @@ aside {
     background-color: #2589bd;
 }
 
+
+/*Sets color for sidebar sections, gives them bottom margins */
+
 #benefit-lead,
 #benefit-brand,
 #benefit-cost {
@@ -117,12 +173,18 @@ aside {
     color: #ffffff;
 }
 
+
+/*Centers the header text for the sidebar, give them bottom margins */
+
 #benefit-lead h3,
 #benefit-brand h3,
 #benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+
+/*Sets image sizes for the sidebar*/
 
 #benefit-lead img,
 #benefit-brand img,
@@ -132,12 +194,18 @@ aside {
     max-width: 150px;
 }
 
+
+/*Aligns text to the center for the footer, clears floats, changes font, and adds padding to all sides */
+
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+
+/*Changes font size for the footer heading*/
 
 footer h2 {
     font-size: 20px;
