@@ -119,9 +119,7 @@ main {
 
 /*Adds margin and padding for the main sections of the site, changes the font, changes the background and font color */
 
-#search-engine-optimization,
-#online-reputation-management,
-#social-media-marketing {
+.main-box {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -133,18 +131,14 @@ main {
 
 /*Sets max heights for the main sections */
 
-#search-engine-optimization img,
-#online-reputation-management img,
-#social-media-marketing img {
+.main-box img {
     max-height: 200px;
 }
 
 
 /*Sets font size and bottom margins for the main sections */
 
-#search-engine-optimization h2,
-#online-reputation-management h2,
-#social-media-marketing h2 {
+.main-box h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -166,9 +160,7 @@ aside {
 
 /*Sets color for sidebar sections, gives them bottom margins */
 
-#benefit-lead,
-#benefit-brand,
-#benefit-cost {
+.side-box {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -176,9 +168,7 @@ aside {
 
 /*Centers the header text for the sidebar, give them bottom margins */
 
-#benefit-lead h3,
-#benefit-brand h3,
-#benefit-cost h3 {
+.side-box h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -186,9 +176,7 @@ aside {
 
 /*Sets image sizes for the sidebar*/
 
-#benefit-lead img,
-#benefit-brand img,
-#benefit-cost img {
+.side-box img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
