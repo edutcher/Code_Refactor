@@ -8,7 +8,7 @@ This is the main page of Horiseon Solution Services.  V2 integrates semantic HTM
 
 The following image shows the web application's appearance:
 
-![Horiseon Services Website Mock-up](./Assets/01-html-css-git-homework-demo.png)
+![Horiseon Services Website Mock-up](./assets/01-html-css-git-homework-demo.png)
 
 ## Credits
 
